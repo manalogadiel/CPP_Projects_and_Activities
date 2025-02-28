@@ -1,0 +1,29 @@
+PracticeActivity2_2
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    double score, total, average;
+
+    for (int i = 0; i < 3; ++i){
+        cout << "Enter your score for Quiz " << i+1 << ": ";
+        cin >> score;
+        total += score;
+        }
+        average = total / 3;
+        cout << "The average of the three quizzes is: " << average;
+
+    return 0;
+}
+
+
+Output
+
+Enter your score for Quiz 1: 5
+Enter your score for Quiz 2: 10
+Enter your score for Quiz 3: 15
+The average of the three quizzes is: 10
+
+=== Code Execution Successful ===

@@ -1,0 +1,35 @@
+PracticeActivity2_4
+
+#include <iostream>
+using namespace std;
+
+int main(){
+
+    double num1, num2;
+
+    cout << "Enter Number 1: ";
+    cin >> num1;
+    cout << "Enter Number 2: ";
+    cin >> num2;
+
+    cout << "Before Swap, Number 1 is " << num1 << " & Number 2 is " << num2 << endl;
+
+    num1 = num1 + num2;
+    num2 = num1 - num2;
+    num1 = num1 - num2;
+
+    cout << "After Swap, Number 1 is " << num1 << " & Number 2 is "<< num2 << endl;
+
+    return 0;
+}
+
+
+Output
+
+Enter Number 1: 20
+Enter Number 2: 30
+Before Swap, Number 1 is 20 & Number 2 is 30
+After Swap, Number 1 is 30 & Number 2 is 20
+
+
+=== Code Execution Successful ===

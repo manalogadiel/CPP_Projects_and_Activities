@@ -1,0 +1,40 @@
+PracticeActivity2_3
+
+#include <iostream>
+using namespace std;
+
+int main(){
+
+    double num1, num2, num3;
+
+    cout << "Please enter your 3 numbers: ";
+    cin >> num1 >> num2 >> num3;
+
+    cout << "Your numbers forward: " << endl;
+    cout    << num1 << endl
+            << num2 << endl
+            << num3 << endl << endl;
+    cout << "Your numbers reversed: " << endl;
+    cout    << num3 << endl
+            << num2 << endl
+            << num1 << endl;
+
+    return 0;
+}
+
+
+Output
+
+Please enter your 3 numbers: 12 45 78
+Your numbers forward: 
+12
+45
+78
+
+Your numbers reversed: 
+78
+45
+12
+
+
+=== Code Execution Successful ===

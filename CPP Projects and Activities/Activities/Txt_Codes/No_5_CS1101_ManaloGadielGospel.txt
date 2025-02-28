@@ -1,0 +1,31 @@
+PracticeActivity2_5
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main(){
+
+    int num, sum = 0, digit;
+
+        cout << "Enter a number: ";
+        cin >> num;
+
+    while (num != 0) {
+        digit = num % 10;
+        sum += digit;
+        num /= 10;
+        }
+
+        cout << "The sum of the digits is: " << abs(sum);
+
+    return 0;
+}
+
+
+Output
+
+Enter a number: 12345
+The sum of the digits is: 15
+
+=== Code Execution Successful ===
